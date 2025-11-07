@@ -1,0 +1,37 @@
+<%- include('partials/header'); %>
+
+<h2 class="mb-4 text-primary">About Me</h2>
+
+<section id="about" class="mb-5">
+    <div class="row">
+        
+        <div class="col-lg-7 mb-4 mb-lg-0">
+            <video
+                id="video" 
+                controls 
+                autoplay
+                poster="/images/png.png"
+                preload="auto"
+                class="img-fluid rounded shadow-lg mb-4">
+                <source src="/images/WIN_20251003_14_07_09_Pro.mp4" type="video/mp4">
+                <img src="/images/img.jpg" width="410px" height="410px" alt="Profile Image Fallback" class="img-fluid">
+            </video> 
+        </div>
+        
+        <div class="col-lg-5">
+            <figure class="text-center">
+                <img src="/images/img.jpg" width="410px" height="410px" class="img-fluid rounded shadow" alt="Profile Image">
+                <figcaption class="mt-2 text-muted">
+                    Profile Picture of Argiris
+                </figcaption>
+            </figure>
+            
+            <p class="mt-4">
+                Welcome to my portfolio! This page gives you a little insight into who I am and what I'm passionate about. As a student in Web and Scripting Programming, I am focused on building clean, functional, and responsive applications using technologies like ExpressJS, EJS, and modern front-end frameworks like Bootstrap.
+                Feel free to browse my projects and use the contact page to get in touch!
+            </p>
+        </div>
+    </div>
+</section>
+
+<%- include('partials/footer'); %>

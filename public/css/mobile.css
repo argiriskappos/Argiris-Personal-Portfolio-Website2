@@ -1,0 +1,17 @@
+@media (max-width: 600px) {
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  .hero {
+    padding: 50px 15px;
+  }
+
+  .navbar-brand {
+    font-size: 1.2rem;
+  }
+
+  footer {
+    font-size: 0.8rem;
+  }
+}

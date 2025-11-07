@@ -1,0 +1,35 @@
+:root {
+  --primary-purple: #6c67f0;
+  --medium-purple: #7876c4;
+  --dark-gray: #22213d;
+  --accent-dark-blue: #2f2e42;
+  --secondary-gray: #77769c;
+  --highlight-neutral: #626270;
+}
+
+body {
+  background-color: var(--dark-gray);
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding-top: 70px;
+}
+
+/* Navbar */
+.navbar {
+  background-color: var(--accent-dark-blue) !important;
+}
+
+/* Hero section */
+.hero {
+  background: linear-gradient(135deg, var(--primary-purple), var(--accent-dark-blue));
+  color: white;
+  padding: 80px 20px;
+}
+
+/* Footer */
+footer {
+  background-color: var(--accent-dark-blue);
+  color: var(--secondary-gray);
+  font-size: 0.9rem;
+}
